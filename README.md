@@ -64,7 +64,7 @@ Essentially, predicting if a credit card application will be approved or not is 
 
 This gives us a benchmark. A good machine learning model should be able to accurately predict the status of the applications with respect to these statistics.
 
-Which model should we pick? A question to ask is: are the features that affect the credit card approval decision process correlated with each other? Although we can measure correlation, that is outside the scope of this notebook, so we'll rely on our intuition that they indeed are correlated for now. 
+Which model should we pick? A question to ask is: are the features that affect the credit card approval decision process correlated with each other? Although we can measure correlation, that is outside the scope of this notebook, so we'll rely on our intuition that they indeed are correlated for now, so let's explore below classifiers:
 
  * Logistic Regression model.
  * Decision Tree - Entrop - No Max depth.
@@ -73,6 +73,9 @@ Which model should we pick? A question to ask is: are the features that affect t
  * Gradient Boosting.
  * Extreme Gradient Boosting.
  
+## 8. Model Comparison and the Winner !!!
+
+The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which is great and indicates that our model outperforms all other Models and was effectively able to  predict if an individual's application for a credit card will be accepted or rejected
   
 
 

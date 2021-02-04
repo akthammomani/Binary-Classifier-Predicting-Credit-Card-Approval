@@ -27,4 +27,9 @@ The structure of this notebook is as follows:
 We will have to preprocess the dataset to ensure the machine learning model we choose can make good predictions.
  * After our data is in good shape, we will do some exploratory data analysis to build our intuitions.
  * Finally, we will build a machine learning model that can predict if an individual's application for a credit card will be accepted.
+ 
+ 
+ ## 4. Inspecting the applications
 
+<p>The output may appear a bit confusing at its first sight, but let's try to figure out the most important features of a credit card application. The features of this dataset have been anonymized to protect the privacy, but <a href="http://rstudio-pubs-static.s3.amazonaws.com/73039_9946de135c0a49daa7a0a9eda4a67a72.html">this blog</a> gives us a pretty good overview of the probable features. The probable features in a typical credit card application are <code>Gender</code>, <code>Age</code>, <code>Debt</code>, <code>Married</code>, <code>BankCustomer</code>, <code>EducationLevel</code>, <code>Ethnicity</code>, <code>YearsEmployed</code>, <code>PriorDefault</code>, <code>Employed</code>, <code>CreditScore</code>, <code>DriversLicense</code>, <code>Citizen</code>, <code>ZipCode</code>, <code>Income</code> and finally the <code>ApprovalStatus</code>. This gives us a pretty good starting point, and we can map these features with respect to the columns in the output.   </p>
+<p>As we can see from our first glance at the data, the dataset has a mixture of numerical and categorical features. This can be fixed with some preprocessing, but before we do that, let's learn about the dataset a bit more to see if there are other dataset issues that need to be fixed.</p>

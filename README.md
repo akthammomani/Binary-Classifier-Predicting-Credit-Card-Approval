@@ -79,6 +79,7 @@ The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which
 
 [Single Decision Tree Visualization from our Random Forests Model](https://github.com/akthammomani/Binary-Classifier-Predicting-Credit-Card-Approval/blob/main/Single_DT_Visualization_RF.md)
 
+## Accuracy vs. AUC for All Models:
 
 | <code>Model</code>|<code>Accuracy</code>|<code>AUC</code>|
 |:------------------|:------------------:|:------------------:|
@@ -89,6 +90,7 @@ The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which
 |Gradient Boosting - max_depth=5|87.28070 %      | 92.79778 %   |
 |Extreme Gradient Boosting| 87.28070 %    | 94.21053 %   |
 
+## Confusion Matrix comparison between All Models:
 
 | <code>Model</code>| <code>Metrics</code> | <code>value</code>  |<code>Metrics </code>  | <code>value</code>  | <code>Total</code>  |<code> value </code> |
 |:-----------------|:-------:|:------:|:--------:|:------:|:------:|:------:|

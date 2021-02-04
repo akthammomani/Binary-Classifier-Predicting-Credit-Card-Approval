@@ -44,6 +44,18 @@ We will have to preprocess the dataset to ensure the machine learning model we c
 <li>Finally, the dataset has missing values, which we'll take care of next. The missing values in the dataset are labeled with '?', which can be seen in the most categorical features.</li>
 </ul>
 <p>Now, let's temporarily replace these missing value question marks with NaN.</p>
+
+
+## 6. Preprocessing the data
+
+<p>The missing values are now successfully handled.</p>
+<p>There is still some minor but essential data preprocessing needed before we proceed towards building our machine learning model. We are going to divide these remaining preprocessing steps into three main tasks:</p>
+<ol>
+<li>Convert the non-numeric data into numeric.</li>
+<li>Split the data into train and test sets. </li>
+<li>Scale the feature values to a uniform range.</li>
+</ol>
+<p>First, we will be converting all the non-numeric values into numeric ones. We do this because not only it results in a faster computation but also many machine learning models (like XGBoost) (and especially the ones developed using scikit-learn) require the data to be in a strictly numeric format. We will do this by using a technique called <a href="http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html">label encoding</a>.</p>
   
 
 

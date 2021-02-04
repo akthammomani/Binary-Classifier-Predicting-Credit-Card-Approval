@@ -56,6 +56,23 @@ We will have to preprocess the dataset to ensure the machine learning model we c
 <li>Scale the feature values to a uniform range.</li>
 </ol>
 <p>First, we will be converting all the non-numeric values into numeric ones. We do this because not only it results in a faster computation but also many machine learning models (like XGBoost) (and especially the ones developed using scikit-learn) require the data to be in a strictly numeric format. We will do this by using a technique called <a href="http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html">label encoding</a>.</p>
+
+
+## 7. Modelling
+
+Essentially, predicting if a credit card application will be approved or not is a binary-classification task. According to UCI, our dataset contains more instances that correspond to "Denied" status than instances corresponding to "Approved" status. Specifically, out of 690 instances, there are 383 (55.5%) applications that got denied and 307 (44.5%) applications that got approved.
+
+This gives us a benchmark. A good machine learning model should be able to accurately predict the status of the applications with respect to these statistics.
+
+Which model should we pick? A question to ask is: are the features that affect the credit card approval decision process correlated with each other? Although we can measure correlation, that is outside the scope of this notebook, so we'll rely on our intuition that they indeed are correlated for now. 
+
+ * Logistic Regression model.
+ * Decision Tree - Entrop - No Max depth.
+ * Decision Tree - Gini - max_depth=5.
+ * Random Forest.
+ * Gradient Boosting.
+ * Extreme Gradient Boosting.
+ 
   
 
 

@@ -83,12 +83,12 @@ The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which
 |Logistic Regression model|87.28070 %    |90.92996 %    |
 |Decision Tree - Entropy - No Max depth|83.77193 %    |82.93233 %    |
 |Decision Tree - Gini - max_depth=5|86.40351 %    |91.89553 %    |
-|Random Forest - max_depth=5|89.47368 %    | 94.09577 %   |
+|<code>Random Forest - max_depth=5</code>|<code>89.47368 %   </code> | <code>94.09577 %  </code> |
 |Gradient Boosting - max_depth=5|87.28070 %      | 92.79778 %   |
 |Extreme Gradient Boosting| 87.28070 %    | 94.21053 %   |
 
 
-| <code>Model</code>| Metrics | value  |Metrics   | value  | Total  | value  |
+| <code>Model</code>| <code>Metrics</code> | <code>value</code>  |<code>Metrics </code>  | <code>value</code>  | <code>Total</code>  |<code> value </code> |
 |:-----------------|:-------:|:------:|:--------:|:------:|:------:|:------:|
 |Logistic Regression model | TP |  116 | FN  | 17  |Total   | 133  |
 |Logistic Regression model| FP |   12|  TN | 83  |Total   | 95  |   
@@ -96,8 +96,8 @@ The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which
 |Decision Tree - Entropy - No Max depth| FP |   21|  TN | 74  |Total   | 95|   
 |Decision Tree - Gini - max_depth=5| TP |  112 | FN  | 21  |Total   | 133 |
 |Decision Tree - Gini - max_depth=5| FP |   10|  TN | 85  |Total   | 95|   
-|Random Forest - max_depth=5| TP | 124| FN  | 9 |Total   | 133 |
-|Random Forest - max_depth=5| FP |   15|  TN | 80 |Total   | 95  |   
+|<code>Random Forest - max_depth=5</code>| <code>TP </code>|<code> 124</code>|<code> FN  </code>| <code>9 </code>|<code>Total </code>  | <code>133</code> |
+|<code>Random Forest - max_depth=5</code>|<code> FP </code>|  <code> 15</code>| <code> TN </code>|<code>80 </code>|<code>Total   </code>| <code>95  </code>|   
 |Gradient Boosting - max_depth=5| TP |  117 | FN  | 16  |Total   | 133|
 |Gradient Boosting - max_depth=5| FP |   13|  TN | 82  |Total   | 95|  
 |Extreme Gradient Boosting| TP |  117 | FN  | 16  |Total   | 133 |

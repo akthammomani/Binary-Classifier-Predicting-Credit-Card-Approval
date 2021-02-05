@@ -67,7 +67,7 @@ This gives us a benchmark. A good machine learning model should be able to accur
 Which model should we pick? A question to ask is: are the features that affect the credit card approval decision process correlated with each other? Although we can measure correlation, that is outside the scope of this notebook, so we'll rely on our intuition that they indeed are correlated for now, so let's explore below classifiers:
 
  * Logistic Regression model.
- * Decision Tree - Entrop - No Max depth.
+ * Decision Tree - Entropy - No Max depth.
  * Decision Tree - Gini - max_depth=5.
  * Random Forest.
  * Gradient Boosting.

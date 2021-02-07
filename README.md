@@ -41,9 +41,8 @@ We will have to preprocess the dataset to ensure the machine learning model we c
 <li>Our dataset contains both numerical and categorical data (specifically data that are of <code>float64</code>, <code>int64</code> and <code>object</code> types). Specifically, the features:'dept', 'years_employed', 'CreditScore' and 'income' contain numeric values (of types float64, float64, int64 and int64 respectively) and all the other features contain categorical features values.</li>
 <li>The dataset also contains values from several ranges. Some features have a value range of 0 - 28, some have a range of 2 - 67, and some have a range of 1017 - 100000. Apart from these, we can get useful statistical information (like <code>mean</code>, <code>max</code>, and <code>min</code>) about the features that have numerical values. </li>
 <li>Two features defined as an object and those need to be converted to float64: 'age' & 'zipcode'.    
-<li>Finally, the dataset has missing values, which we'll take care of next. The missing values in the dataset are labeled with '?', which can be seen in the most categorical features.</li>
+<li>Finally, the dataset has missing values, which we'll take care of next. The missing values in the dataset are labeled with '?', which can be seen in the most categorical features. So temporarily we'll replace these missing value question marks with NaN.</li>
 </ul>
-<p>Now, let's temporarily replace these missing value question marks with NaN.</p>
 
 
 ## 6. Preprocessing the data

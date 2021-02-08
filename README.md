@@ -83,40 +83,14 @@ The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which
 | <code>Model</code>|<code>Accuracy</code>|<code>AUC</code>|
 |:------------------|:------------------:|:------------------:|
 |Logistic Regression model|87.28070 %    |90.92996 %    |
-|Decision Tree - Entropy - No Max depth|83.77193 %    |82.93233 %    |
-|Decision Tree - Gini - max_depth=5|86.40351 %    |91.89553 %    |
-|<code>Random Forest - max_depth=5</code>|<code>89.47368 %   </code> | <code>94.09577 %  </code> |
-|Gradient Boosting - max_depth=5|87.28070 %      | 92.79778 %   |
-|Extreme Gradient Boosting| 87.28070 %    | 94.21053 %   |
-
-### Confusion Matrix comparison between All Models:
-
-| <code>Model</code>| <code>Metrics</code> | <code>value</code>  |<code>Metrics </code>  | <code>value</code>  | <code>Total</code>  |<code> value </code> |
-|:-----------------|:-------:|:------:|:--------:|:------:|:------:|:------:|
-|Logistic Regression model | TP |  116 | FN  | 17  |Total   | 133  |
-|Logistic Regression model| FP |   12|  TN | 83  |Total   | 95  |   
-|Decision Tree - Entropy - No Max depth| TP |  117 | FN  | 16  |Total   | 133  |
-|Decision Tree - Entropy - No Max depth| FP |   21|  TN | 74  |Total   | 95|   
-|Decision Tree - Gini - max_depth=5| TP |  112 | FN  | 21  |Total   | 133 |
-|Decision Tree - Gini - max_depth=5| FP |   10|  TN | 85  |Total   | 95|   
-|<code>Random Forest - max_depth=5</code>| <code>TP </code>|<code> 124</code>|<code> FN  </code>| <code>9 </code>|<code>Total </code>  | <code>133</code> |
-|<code>Random Forest - max_depth=5</code>|<code> FP </code>|  <code> 15</code>| <code> TN </code>|<code>80 </code>|<code>Total   </code>| <code>95  </code>|   
-|Gradient Boosting - max_depth=5| TP |  117 | FN  | 16  |Total   | 133|
-|Gradient Boosting - max_depth=5| FP |   13|  TN | 82  |Total   | 95|  
-|Extreme Gradient Boosting| TP |  117 | FN  | 16  |Total   | 133 |
-|Extreme Gradient Boosting| FP |   13|  TN | 82  |Total   | 95  | 
-
-
-| <code>Model</code>|<code>Accuracy</code>|<code>AUC</code>|
-|:------------------|:------------------:|:------------------:|
-|Logistic Regression model|87.28070 %    |90.92996 %    |
 |Decision Tree - Entropy - max_depth=5|86.84211 %    |88.96715 %    |
 |Decision Tree - Gini - max_depth=5|86.40351 %    |91.89553 %    |
 |<code>Random Forest - max_depth=5</code>|<code>89.47368 %   </code> | <code>94.09577 %  </code> |
 |Gradient Boosting - max_depth=5|88.15789 %      | 94.03245 %   |
-|Extreme Gradient Boosting| 85.96491 %    | 93.56549 %   |
+|Extreme Gradient Boosting- max_depth=5| 85.96491 %    | 93.56549 %   |
 
 
+### Confusion Matrix comparison between All Models:
 
 | <code>Model</code>|<code>Class 0 precision</code>|<code>Class 1 precision</code>|<code>Class 0 recall</code>|<code>Class 1 recall</code>|
 |:------------------|:------------------:|:------------------:|:------------------:|:------------------:|
@@ -125,8 +99,7 @@ The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which
 |Decision Tree - Gini - max_depth=5|  0.918033      | 0.801887       |  0.842105    |  0.894737     |
 |<code>Random Forest - max_depth=5</code>|<code> 0.892086   </code>    | <code>0.898876  </code>     | <code>0.932331 </code>    |<code> 0.842105 </code>     |
 |Gradient Boosting - max_depth=5| 0.901515       | 0.854167       | 0.894737     | 0.863158      |
-|Extreme Gradient Boosting| 0.874074       | 0.838710       | 0.887218   |0.821053  |
-
+|Extreme Gradient Boosting- max_depth=5| 0.874074       | 0.838710       | 0.887218   |0.821053  |
   
 
 

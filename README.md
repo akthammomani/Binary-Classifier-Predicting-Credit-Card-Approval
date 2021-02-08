@@ -106,6 +106,27 @@ The Random Forests Model shows an overall **Accuracy 89.47% and AUC 94%**, which
 |Extreme Gradient Boosting| TP |  117 | FN  | 16  |Total   | 133 |
 |Extreme Gradient Boosting| FP |   13|  TN | 82  |Total   | 95  | 
 
+
+| <code>Model</code>|<code>Accuracy</code>|<code>AUC</code>|
+|:------------------|:------------------:|:------------------:|
+|Logistic Regression model|87.28070 %    |90.92996 %    |
+|Decision Tree - Entropy - max_depth=5|86.84211 %    |88.96715 %    |
+|Decision Tree - Gini - max_depth=5|86.40351 %    |91.89553 %    |
+|<code>Random Forest - max_depth=5</code>|<code>89.47368 %   </code> | <code>94.09577 %  </code> |
+|Gradient Boosting - max_depth=5|88.15789 %      | 94.03245 %   |
+|Extreme Gradient Boosting| 85.96491 %    | 93.56549 %   |
+
+
+
+| <code>Model</code>|<code>Class 0 precision</code>|<code>Class 1 precision</code>|<code>Class 0 recall</code>|<code>Class 1 recall</code>|
+|:------------------|:------------------:|:------------------:|:------------------:|:------------------:|
+|Logistic Regression model|0.906250      |0.830000      | 0.872180  |0.873684  |
+|Decision Tree - Entropy - max_depth=5| 0.881481       | 0.849462       | 0.894737     |0.831579       |
+|Decision Tree - Gini - max_depth=5|  0.918033      | 0.801887       |  0.842105    |  0.894737     |
+|<code>Random Forest - max_depth=5</code>|<code> 0.892086   </code>    | <code>0.898876  </code>     | <code>0.932331 </code>    |<code> 0.842105 </code>     |
+|Gradient Boosting - max_depth=5| 0.901515       | 0.854167       | 0.894737     | 0.863158      |
+|Extreme Gradient Boosting| 0.874074       | 0.838710       | 0.887218   |0.821053  |
+
   
 
 
